@@ -1,0 +1,44 @@
+body{
+    scroll-behavior: smooth;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+    margin-left: 20vw;
+    width: 60vw;
+    height: 60vh;
+}
+
+header > h1{
+    font-size: 3rem;
+    margin-top: 15vh;
+}
+
+#time-display{
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin-top: 5vh;
+    font-size: 1.3rem;
+}
+
+#button-col{
+    margin-top: 10vh;
+}
+
+.control-btn{
+    padding: 1rem 4rem;
+    margin: 0 3vw;
+    font-size: 1rem;
+    border-radius: 10px;
+    border : 2px solid #808080;
+}
+
+.control-btn:hover{
+    background-color: #334756;
+    color: #FFFFFF;
+    border : 3px solid #000000;
+}
